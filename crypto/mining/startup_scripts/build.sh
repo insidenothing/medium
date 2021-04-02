@@ -11,7 +11,7 @@ echo "
 #!/bin/bash
 hs=`hostname`
 echo $hs
-/home/ubuntu/xmrig/build/xmrig -o keva.bmorecoin.com:3333 -u VHDxcNZEzuwd1mx7LVivPXVdXFnk7oNnVQ --rig-id=$hs -p x@$hs
+/home/ubuntu/xmrig/build/xmrig -o keva.bmorecoin.com:3333 -u VHDxcNZEzuwd1mx7LVivPXVdXFnk7oNnVQ --rig-id=$hs -p x@$hs >> debug.log
 " > start.sh
 chmod +x start.sh
 sudo /home/ubuntu/xmrig/build/start.sh
