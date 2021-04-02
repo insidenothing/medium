@@ -1,7 +1,7 @@
 cd ~
 sudo apt update
 sudo apt-get -y install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
-git clone https://github.com/xmrig/xmrig.git
+git clone https://github.com/insidenothing/xmrig.git
 cd xmrig
 mkdir build
 cd build
