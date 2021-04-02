@@ -11,7 +11,7 @@ echo "
 #!/bin/bash
 hs=`hostname`
 echo $hs
-./xmrig -o keva.bmorecoin.com:3333 -u VHDxcNZEzuwd1mx7LVivPXVdXFnk7oNnVQ --rig-id=$hs -p x@$hs
+~/xmrig/build/xmrig -o keva.bmorecoin.com:3333 -u VHDxcNZEzuwd1mx7LVivPXVdXFnk7oNnVQ --rig-id=$hs -p x@$hs
 " > start.sh
 chmod +x start.sh
 ~/xmrig/build/start.sh
