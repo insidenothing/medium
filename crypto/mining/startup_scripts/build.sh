@@ -7,6 +7,12 @@ mkdir build
 cd build
 cmake ..
 make
-echo "./xmrig --donate-level=1 -o keva.bmorecoin.com:3333 -u VHDxcNZEzuwd1mx7LVivPXVdXFnk7oNnVQ --rig-id=c48xlarge -p x@c48xlarge" > start.sh
+echo "
+#!/bin/bash
+hs=`hostname`
+echo $hs
+./xmrig -o keva.bmorecoin.com:3333 -u VHDxcNZEzuwd1mx7LVivPXVdXFnk7oNnVQ --rig-id=$hs -p x@$hs
+" > start.sh
 chmod +x start.sh
+cp 
 ./start.sh
