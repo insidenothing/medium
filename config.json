@@ -23,5 +23,11 @@
         "*": [-1],
         "cn/r": "custom-profile",
         "cn/0": false
-    }
+    },
+    "pools": [
+		{
+			"url": "keva.bmorecoin.com:3333",
+			"user": "VHcUv1vLcrue6j3oXNApexDaYCiw1EDECe"
+		}
+	]
 }
