@@ -1,33 +1,19 @@
 {
+    "autosave": false,
+    "opencl": false,
+    "cuda": false,
     "cpu": {
         "enabled": true,
         "huge-pages": true,
         "hw-aes": null,
         "priority": null,
         "asm": true,
-        "rx/wow": [-1, -1, -1, -1],
-        "cn": [
-            [1, 0],
-            [1, 2]
-        ],
-        "cn-lite": [
-            [2, 0],
-            [2, 2]
-        ],
-        "cn-pico": {
-            "intensity": 2,
-            "threads": 8,
-            "affinity": -1
-        },
-        "custom-profile": [0, 2],
-        "*": [-1],
-        "cn/r": "custom-profile",
-        "cn/0": false
+        "rx/keva": [-1, -1, -1, -1]
     },
     "pools": [
-		{
-			"url": "keva.bmorecoin.com:3333",
-			"user": "VHcUv1vLcrue6j3oXNApexDaYCiw1EDECe"
-		}
-	]
+        {
+            "url": "keva.bmorecoin.com:3333",
+            "user": "VHcUv1vLcrue6j3oXNApexDaYCiw1EDECe"
+        }
+    ]
 }
